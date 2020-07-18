@@ -1,0 +1,39 @@
+{
+  "name": "mern",
+  "version": "1.0.0",
+  "description": "Mern Demo",
+  "main": "server.js",
+  "scripts": {
+    "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
+    "start:prod": "node server.js",
+    "start:dev": "concurrently \"nodemon --ignore 'client/*'\" \"npm run client\"",
+    "client": "cd client && npm run start",
+    "install": "cd client && npm install",
+    "build": "cd client && npm run build",
+    "heroku-postbuild": "npm run build"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^4.1.0",
+    "node-sass": "^4.13.0",
+    "nodemon": "^1.18.7",
+    "sass-loader": "^8.0.0"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "bootstrap": "^4.4.1",
+    "cogo-toast": "^4.1.1",
+    "express": "^4.16.3",
+    "firebase": "^7.8.2",
+    "google-map-react": "^1.1.7",
+    "if-env": "^1.0.4",
+    "moment": "^2.24.0",
+    "moment-timezone": "^0.5.27",
+    "mongoose": "^5.7.4",
+    "react-modal": "^3.11.2",
+    "react-moment": "^0.9.7",
+    "react-places-autocomplete": "^7.2.1",
+    "yarn": "^1.22.4"
+  }
+}
