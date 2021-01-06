@@ -21,7 +21,7 @@
     "sass-loader": "^8.0.0"
   },
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "bootstrap": "^4.4.1",
     "cogo-toast": "^4.1.1",
     "express": "^4.16.3",
