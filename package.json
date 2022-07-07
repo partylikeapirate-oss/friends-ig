@@ -28,7 +28,7 @@
     "firebase": "^7.8.2",
     "google-map-react": "^1.1.7",
     "if-env": "^1.0.4",
-    "moment": "^2.24.0",
+    "moment": "^2.29.4",
     "moment-timezone": "^0.5.27",
     "mongoose": "^5.7.4",
     "react-modal": "^3.11.2",
