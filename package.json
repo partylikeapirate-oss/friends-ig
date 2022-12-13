@@ -24,7 +24,7 @@
     "axios": "^0.19.2",
     "bootstrap": "^4.4.1",
     "cogo-toast": "^4.1.1",
-    "express": "^4.16.3",
+    "express": "^4.17.3",
     "firebase": "^7.8.2",
     "google-map-react": "^1.1.7",
     "if-env": "^1.0.4",
